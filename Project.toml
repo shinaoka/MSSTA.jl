@@ -16,6 +16,7 @@ TensorCrossInterpolation = "b261b2ec-6378-4871-b32e-9173bb050604"
 
 [compat]
 ITensors = "^0.3.34"
+Memoize = "0.4"
 SparseIR = "^0.96, 0.97, 1"
 StaticArrays = "1"
 julia = "1"

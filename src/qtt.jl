@@ -4,7 +4,7 @@ Create a QTT representing exp(a*x) on [0, 1)
 
 exp(-a*x) = prod_{n=1}^R exp(a * 2^(-n) * x_n)
 """
-function expqtt(sites, a::Float64)
+function expqtt(sites, a)
     R = length(sites)
     links = [Index(1, "Link,l=$l") for l in 0:R]
     tensors = ITensor[]
